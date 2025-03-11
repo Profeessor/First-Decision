@@ -13,8 +13,10 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
   ],
 
-  pinia: {
-    autoImports: ['defineStore', 'storeToRefs'],
+  nitro: {
+    experimental: {
+      openAPI: true
+    }
   },
 
   // https://devtools.nuxt.com
