@@ -14,13 +14,24 @@
   "dependencies": {
     "@nuxt/eslint": "^0.7.5",
     "@nuxthub/core": "^0.8.11",
+    "algoliasearch": "^5.20.4",
+    "instantsearch.js": "^4.78.0",
+    "ipx": "^3.0.1",
     "nuxt": "^3.15.1",
     "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "vue-instantsearch": "^4.20.5",
+    "vue-router": "^4.5.0",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.7.5",
+    "@nuxt/image": "^1.9.0",
+    "@nuxtjs/color-mode": "^3.5.2",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/tailwindcss": "^6.13.2",
+    "@vueuse/nuxt": "^13.0.0",
     "eslint": "^9.18.0",
+    "nuxt-icon": "1.0.0-beta.7",
     "typescript": "^5.7.3",
     "vue-tsc": "^2.2.0",
     "wrangler": "^3.101.0"
